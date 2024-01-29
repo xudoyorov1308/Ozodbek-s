@@ -1,0 +1,121 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-image: url(./Layer\ 101\ 1.png) !important;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 220px;
+    flex-wrap: wrap;
+}
+.project ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.project p{
+   color: white;
+}
+.inaheader{
+    text-align: center;
+}
+.inaheader h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.inaheader p{
+    color: white;
+}
+.inaheader button{
+    margin-bottom: 227px;
+    width: 158px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 2px solid #FFF;
+    background: rgba(221, 215, 215, 0);
+    color: #FFF;
+}
+.mobile{
+    text-align: center;
+}
+.mobile hr{
+    width: 44px;
+    height: 3px;
+    flex-shrink: 0;
+}
+.thenmobil{
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 165px;
+}
+
+.ultimate{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inamain{
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.inamain hr{
+    width: 44px;
+    height: 2px;
+    flex-shrink: 0;
+}
+.main{
+    background-color: #F8F8F8;
+}
+.txt{
+   display: flex;
+   max-width: 90%;
+   margin: auto;
+   justify-content: space-around;
+}
+.imgs{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.typeworks{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.typeworks hr{
+    width: 44px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #555;
+}
+.typeworks ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+    margin-bottom: 58px;
+
+}
+.images2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+@media screen and ( max-width:  ) {
+    
+}
